@@ -1,0 +1,9 @@
+package: github.com/AidHamza/gomvc-demo
+import:
+- package: github.com/gorilla/mux
+  version: ^1.6.0
+- package: gopkg.in/ddo/go-dlog.v1
+  version: ^1.0.2
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
